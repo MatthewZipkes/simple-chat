@@ -1,7 +1,18 @@
 name: SimpleChat
 version: '1.0.0'
-main: com.scrolls.plugin.simpleChat
+main: com.scrolls.plugin.SimpleChat
 api: '1.0'
 api-version: '1.21'
 author: Scrolls
 description: A simple chat plugin
+
+commands:
+  bracket:
+    description: Change the bracket style
+    usage: /bracket [none|angle|square|curly]
+    permission: simplechat.bracket
+
+permissions:
+  simplechat.bracket:
+    description: Allows changing the bracket style
+    default: op
