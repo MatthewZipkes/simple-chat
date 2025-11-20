@@ -1,0 +1,6 @@
+# Bracket style options: angle, square, curly, none
+# angle: <PlayerName> message
+# square: [PlayerName] message
+# curly: {PlayerName} message
+# none: PlayerName: message
+bracket-style: none
