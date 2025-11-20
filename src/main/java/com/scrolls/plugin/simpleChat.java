@@ -5,7 +5,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class simpleChat extends JavaPlugin {
     @Override
     public void onEnable() {
-        getLogger().info("SimpleChat plugin enabled");
+         saveDefaultConfig();
+         getServer().getPluginManager().registerEvents(new ChatFormatter(this), this);
+         getLogger().info("SimpleChat plugin enabled");
+         getLogger().info("Bracket style: " + getConfig().getString("bracket-style", "none"));
     }
 
     @Override
