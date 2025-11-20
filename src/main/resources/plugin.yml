@@ -1,0 +1,7 @@
+name: SimpleChat
+version: '1.0.0'
+main: com.scrolls.plugin.simpleChat
+api: '1.0'
+api-version: '1.21'
+author: Scrolls
+description: A simple chat plugin
