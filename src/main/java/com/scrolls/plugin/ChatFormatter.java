@@ -8,7 +8,7 @@ import org.bukkit.event.player.AsyncPlayerChatEvent;
 public class ChatFormatter implements Listener {
   private final SimpleChat plugin;
 
-  public chatFormatter(SimpleChat plugin) {
+  public ChatFormatter(SimpleChat plugin) {
     this.plugin = plugin;
   }
 
