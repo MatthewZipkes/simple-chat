@@ -2,7 +2,7 @@ package com.scrolls.plugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class simpleChat extends JavaPlugin {
+public class SimpleChat extends JavaPlugin {
     @Override
     public void onEnable() {
          saveDefaultConfig();
